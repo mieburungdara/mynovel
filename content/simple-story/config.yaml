@@ -1,0 +1,25 @@
+# Configuration file for Simple Story
+title: "Simple Story"
+description: "A short, simple tale about everyday adventures"
+slug: "simple-story"
+primary_language: "en"
+status: "complete"
+
+tags: ["short story", "slice of life", "adventure"]
+
+front_page:
+  show_on_front_page: true
+
+author:
+  name: "Simple Author"
+
+copyright: "2025 Simple Story"
+
+downloads:
+  epub_enabled: true
+
+arcs:
+  - title: "The Tale"
+    chapters:
+      - id: "chapter-1"
+        title: "Chapter 1: A Simple Beginning"

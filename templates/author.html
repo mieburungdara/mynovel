@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="{{ current_language }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if social_meta.title %}{{ social_meta.title }}{% else %}{{ author_name }}{% endif %}</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="{{ seo_meta.meta_description }}">
+    {% if seo_meta.allow_indexing %}
+    <meta name="robots" content="index, follow">
+    {% else %}
+    <meta name="robots" content="noindex, nofollow">
+    {% endif %}
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ social_meta.url }}">
+    <meta property="og:title" content="{{ social_meta.title }}">
+    <meta property="og:description" content="{{ social_meta.description }}">
+    <meta property="og:image" content="{{ social_meta.image }}">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ social_meta.url }}">
+    <meta property="twitter:title" content="{{ social_meta.title }}">
+    <meta property="twitter:description" content="{{ social_meta.description }}">
+    <meta property="twitter:image" content="{{ social_meta.image }}">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <a href="/" class="nav-brand">{{ site_config.site_name }}</a>
+                <ul class="nav-menu">
+                    {% for item in navigation.header %}
+                    <li><a href="{{ item.url }}"{% if item.active %} class="active"{% endif %}>{{ item.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="author-content">
+        <section class="author-info">
+            <h1>{{ author_name }}</h1>
+            {% if author_info.bio %}
+            <p>{{ author_info.bio }}</p>
+            {% endif %}
+            {% if author_info.links %}
+            <div class="author-links">
+                {% for link in author_info.links %}
+                <a href="{{ link.url }}">{{ link.text }}</a>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </section>
+
+        <section class="contributions">
+            {% if contributions.stories %}
+            <h2>Stories</h2>
+            <ul>
+                {% for story in contributions.stories %}
+                <li><a href="/{{ story.slug }}/{{ current_language }}/toc/">{{ story.title }}</a></li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            
+            {% if contributions.chapters %}
+            <h2>Chapters</h2>
+            <ul>
+                {% for chapter in contributions.chapters %}
+                <li><a href="/{{ chapter.novel_slug }}/{{ current_language }}/{{ chapter.chapter_id }}/">{{ chapter.novel_title }}: {{ chapter.title }}</a></li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>{{ footer.copyright }}</p>
+            {% if footer.links %}
+            <ul class="footer-links">
+                {% for link in footer.links %}
+                <li><a href="{{ link.url }}">{{ link.text }}</a></li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/static/theme-toggle.js"></script>
+</body>
+</html>

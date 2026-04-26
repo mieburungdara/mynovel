@@ -1,0 +1,52 @@
+# Site Configuration
+site_name: "My Novel Collection"
+site_description: "A collection of web novels with multiple stories and chapters"
+site_url: "https://mieburungdara.github.io/novelrerek"
+
+# SEO Settings
+seo:
+  allow_indexing: true
+  meta_description: "Read amazing web novels with multiple stories and chapters"
+  keywords: ["web novels", "stories", "chapters", "fiction"]
+
+# Social Media Embeds (Open Graph / Twitter Cards)
+social_embeds:
+  default_image: "/static/images/default-social.jpg"
+  title_format: "{title} | My Novel Collection"
+  default_description: "Discover amazing stories in our web novel collection"
+
+# New Chapter Tags Configuration
+new_chapter_tags:
+  enabled: true
+  threshold_days: 7  # Show "NEW!" for chapters published within 7 days
+
+# Languages Configuration
+languages:
+  default: "en"
+  available: ["en"]
+
+# Footer Configuration
+footer:
+  links:
+    - text: "About"
+      url: "/about/en/"
+    - text: "Privacy"
+      url: "/privacy/en/"
+
+# Comments Configuration (if using external service)
+comments:
+  enabled: false
+  system: "none"  # Options: "none", "utterances", "disqus", etc.
+
+# RSS Configuration
+rss:
+  enabled: true
+  max_items: 50
+
+# Sitemap Configuration
+sitemap:
+  enabled: true
+
+# Robots.txt Configuration
+robots:
+  enabled: true
