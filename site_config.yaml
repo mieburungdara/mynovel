@@ -22,8 +22,8 @@ new_chapter_tags:
 
 # Languages Configuration
 languages:
-  default: "en"
-  available: ["en"]
+  default: "id"
+  available: ["en", "id"]
 
 # Footer Configuration
 footer:

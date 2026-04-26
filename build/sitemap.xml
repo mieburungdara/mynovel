@@ -11,6 +11,11 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://mieburungdara.github.io/mynovel/pages-id.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://mieburungdara.github.io/mynovel/my-awesome-web-novel/en/toc/</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -81,7 +86,6 @@
         <loc>https://mieburungdara.github.io/mynovel/axions/en/chapter-1/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <lastmod>2025-01-20</lastmod>
     </url>
     <url>
         <loc>https://mieburungdara.github.io/mynovel/axions/en/tags/fantasy/</loc>
@@ -89,12 +93,43 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://mieburungdara.github.io/mynovel/axions/en/tags/awakening/</loc>
+        <loc>https://mieburungdara.github.io/mynovel/axions/en/tags/bangun/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://mieburungdara.github.io/mynovel/axions/en/tags/village/</loc>
+        <loc>https://mieburungdara.github.io/mynovel/axions/en/tags/desa/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://mieburungdara.github.io/mynovel/axions/id/toc/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://mieburungdara.github.io/mynovel/axions/id/tags/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://mieburungdara.github.io/mynovel/axions/id/chapter-1/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <lastmod>2025-01-20</lastmod>
+    </url>
+    <url>
+        <loc>https://mieburungdara.github.io/mynovel/axions/id/tags/fantasy/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://mieburungdara.github.io/mynovel/axions/id/tags/bangun/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://mieburungdara.github.io/mynovel/axions/id/tags/desa/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
