@@ -1,0 +1,25 @@
+# Configuration file for Axions
+title: "Axions"
+description: "Bercerita tentang medieval fantasy dimana ada magic, swordmanship, monster dan naga."
+slug: "axions"
+primary_language: "en"
+status: "ongoing"
+
+tags: ["fantasy", "medieval", "magic", "swordsmanship", "monsters", "dragons"]
+
+front_page:
+  show_on_front_page: true
+
+author:
+  name: "mieburungdara"
+
+copyright: "2025 Axions"
+
+downloads:
+  epub_enabled: true
+
+arcs:
+  - title: "Arc 1: The Awakening"
+    chapters:
+      - id: "chapter-1"
+        title: "Chapter 1: The Forgotten Village"

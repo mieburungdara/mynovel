@@ -1,5 +1,5 @@
 # Robots.txt for Web Novel Static Generator
-Sitemap: https://mieburungdara.github.io/novelrerek/sitemap.xml
+Sitemap: https://mieburungdara.github.io/mynovel/sitemap.xml
 
 User-agent: *
 Allow: /

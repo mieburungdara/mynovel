@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
     <title>Simple Story</title>
-    <link>https://mieburungdara.github.io/novelrerek/simple-story/</link>
+    <link>https://mieburungdara.github.io/mynovel/simple-story/</link>
     <description>A short, simple tale about everyday adventures</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Apr 2026 22:53:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 23:03:23 +0000</lastBuildDate>
     <generator>Web Novel Static Generator</generator>
     <item>
         <title>Chapter 1: A Simple Beginning</title>
-        <link>https://mieburungdara.github.io/novelrerek/simple-story/en/chapter-1/</link>
+        <link>https://mieburungdara.github.io/mynovel/simple-story/en/chapter-1/</link>
         <description><![CDATA[]]></description>
         <content:encoded><![CDATA[<h1 id="chapter-1-a-simple-beginning">Chapter 1: A Simple Beginning</h1>
 <p>Once upon a time, in a quiet little village, there lived a young person named Alex. Alex loved exploring the world around them, finding wonder in the simplest things.</p>
 <p>One sunny morning, Alex decided to go on an adventure. They packed a small bag with bread, cheese, and an apple, and set out to see what the day would bring.</p>
 <p>As they walked down the familiar path, they noticed something unusual—a small, glowing flower they had never seen before. It sparkled in the...</p>]]></content:encoded>
         <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
-        <guid>https://mieburungdara.github.io/novelrerek/simple-story/en/chapter-1/</guid>
+        <guid>https://mieburungdara.github.io/mynovel/simple-story/en/chapter-1/</guid>
     </item>
 </channel>
 </rss>

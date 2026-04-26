@@ -2,39 +2,48 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
     <title>My Novel Collection</title>
-    <link>https://mieburungdara.github.io/novelrerek</link>
+    <link>https://mieburungdara.github.io/mynovel</link>
     <description>A collection of web novels with multiple stories and chapters</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Apr 2026 22:53:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 23:03:23 +0000</lastBuildDate>
     <generator>Web Novel Static Generator</generator>
     <item>
+        <title>Axions: Chapter 1: The Forgotten Village</title>
+        <link>https://mieburungdara.github.io/mynovel/axions/en/chapter-1/</link>
+        <description><![CDATA[]]></description>
+        <content:encoded><![CDATA[<h1 id="chapter-1-the-forgotten-village">Chapter 1: The Forgotten Village</h1>
+<p>In the shadowed valleys of Eldoria, where ancient forests whispered secrets to the wind, lay the forgotten village of Thornewood. It was a place untouched by the wars of kings and the machinations of mages, a quiet hamlet nestled between towering oaks and mist-shr...</p>]]></content:encoded>
+        <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+        <guid>https://mieburungdara.github.io/mynovel/axions/en/chapter-1/</guid>
+    </item>
+    <item>
         <title>My Awesome Web Novel: Chapter 2: The Journey Begins</title>
-        <link>https://mieburungdara.github.io/novelrerek/my-awesome-web-novel/en/chapter-2/</link>
+        <link>https://mieburungdara.github.io/mynovel/my-awesome-web-novel/en/chapter-2/</link>
         <description><![CDATA[]]></description>
         <content:encoded><![CDATA[<h1 id="chapter-2-the-journey-begins">Chapter 2: The Journey Begins</h1>
 <p>Aria clutched the ancient scroll tightly as she left the library, the weight of destiny pressing upon her shoulders. The city of Eldoria bustled around her—merchants hawking wares, children playing in the streets, guards patrolling their routes—but none of them knew ...</p>]]></content:encoded>
         <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-        <guid>https://mieburungdara.github.io/novelrerek/my-awesome-web-novel/en/chapter-2/</guid>
+        <guid>https://mieburungdara.github.io/mynovel/my-awesome-web-novel/en/chapter-2/</guid>
     </item>
     <item>
         <title>My Awesome Web Novel: Chapter 1: The Prophecy Unveiled</title>
-        <link>https://mieburungdara.github.io/novelrerek/my-awesome-web-novel/en/chapter-1/</link>
+        <link>https://mieburungdara.github.io/mynovel/my-awesome-web-novel/en/chapter-1/</link>
         <description><![CDATA[Aria discovers a mysterious scroll that will change the fate of the realm forever. The prophecy begins in the ancient city of Eldoria.]]></description>
         <content:encoded><![CDATA[<h1 id="chapter-1-the-prophecy-unveiled">Chapter 1: The Prophecy Unveiled</h1>
 <p>In the ancient city of Eldoria, a young scribe named Aria discovered a mysterious scroll that would change the fate of the realm forever.</p>
 <p>The parchment crackled under her careful touch, its golden edges glinting in the candlelight. Ancient runes danced across the...</p>]]></content:encoded>
         <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-        <guid>https://mieburungdara.github.io/novelrerek/my-awesome-web-novel/en/chapter-1/</guid>
+        <guid>https://mieburungdara.github.io/mynovel/my-awesome-web-novel/en/chapter-1/</guid>
     </item>
     <item>
         <title>Simple Story: Chapter 1: A Simple Beginning</title>
-        <link>https://mieburungdara.github.io/novelrerek/simple-story/en/chapter-1/</link>
+        <link>https://mieburungdara.github.io/mynovel/simple-story/en/chapter-1/</link>
         <description><![CDATA[]]></description>
         <content:encoded><![CDATA[<h1 id="chapter-1-a-simple-beginning">Chapter 1: A Simple Beginning</h1>
 <p>Once upon a time, in a quiet little village, there lived a young person named Alex. Alex loved exploring the world around them, finding wonder in the simplest things.</p>
 <p>One sunny morning, Alex decided to go on an adventure. They packed a small bag with bread, cheese, ...</p>]]></content:encoded>
         <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
-        <guid>https://mieburungdara.github.io/novelrerek/simple-story/en/chapter-1/</guid>
+        <guid>https://mieburungdara.github.io/mynovel/simple-story/en/chapter-1/</guid>
     </item>
 </channel>
 </rss>
